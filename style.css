@@ -5,7 +5,7 @@ body {
 #conteiner {
     border: 1px solid greenyellow;
     width: 1440px;
-    height: 1767px;
+    height: 1687px;
 }
 
 
@@ -18,9 +18,10 @@ body {
     width: 348px;
     height: 292px;
     display: inline-block;
-    position: relative;
+    position: absolute;
     margin: 40px auto 0 40px;
     border: blue solid 1px;
+    top: 0;
 }
 
 #ellipse-perfil {
@@ -42,19 +43,103 @@ body {
 
 #conteiner-perfil p {
     text-align: center;
-    margin: 0;margin-top: 10px;
+    margin: 0;
+    margin-top: 10px;
 }
+
+
+/* links & redes sociais */
 
 #conteiner-links {
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     width: 348px;
-    height: 348px;
-    position: relative;
-    margin: 30px auto 0 40px;
+    height: 268px;
+    position: absolute;
+    top: 362px;
+    margin: 0 auto 0 40px;
     border: yellow solid 1px;
 }
+
+/* links & redes sociais */
+/*icons*/
+
+.local {
+    
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.cargo {
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 40px;
+}
+
+.git-hub-icon {
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 40px;
+}
+
+.instagram-icon-1 {
+    position: absolute;
+    margin-top: 162px;
+    margin-left: 40px;
+}
+
+.mail {
+    position: absolute;
+    margin-top: 206px;
+    margin-left: 40px;
+    
+}
+
+/* links & redes sociais */
+/*infos*/
+
+#conteiner-links a {
+    text-decoration: none;
+    color: #837e9f;
+}
+
+.Brasil {
+    
+    position: absolute;
+    margin: 0;
+    top: 34px;
+    left: 86px;
+}
+
+.cargo-escrito {
+    position: absolute;
+    margin: 0;
+    top: 78px;
+    left: 84px;
+}
+
+.acesso-github {
+    position: absolute;
+    top: 122px;
+    left: 84px;
+}
+
+.acesso-instagram {
+    position: absolute;
+    top: 166px;
+    left: 84px;
+}
+
+.acesso-email {
+    position: absolute;
+    top: 210px;
+    left: 84px;
+}
+
+
+/* tecnologias */
 
 #conteiner-tecnologias {
     background: #302F3D;
@@ -62,10 +147,108 @@ body {
     border-radius: 20px;
     width: 348px;
     height: 208px;
-    position: relative;
-    margin: 30px 0 0 40px;
+    position: absolute;
+    top: 660px;
+    margin: 0 0 0 40px;
     border: red solid 1px;
 }
+
+#conteiner-tecnologias h3 {
+    margin: 30px auto 0 20px;
+}
+
+#tec-1 {
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    display: inline-flex;
+    margin: 20px 15px 0 30px;
+}
+
+#tec-1 p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    
+    color: #000000;
+
+}
+
+#tec-2 {
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    display: inline-flex;
+    margin: 0px 15px 0 0;
+}
+
+#tec-3 {
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    display: inline-flex;
+}
+
+#tec-4 {
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    display: inline-flex;
+    margin: 15px 15px 0 30px;
+}
+
+#tec-5 {
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    display: inline-flex;
+    margin: 0px 15px 0 0;
+}
+
+#tec-6 {
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    display: inline-flex;
+}
+
+#tec-7 {
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    display: inline-flex;
+    margin: 15px 15px 0 30px;
+}
+
+#tec-8 {
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    display: inline-flex;
+    margin: 0px 15px 0 0;
+}
+
+#tec-9 {
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    display: inline-flex;
+}
+
+
+
+
+/*experiencias*/
 
 #conteiner-experiencias {
     background: #302F3D;
@@ -73,8 +256,9 @@ body {
     border-radius: 20px;
     width: 348px;
     height: 349px;
-    position: relative;
-    margin: 30px 0 0 40px;
+    position: absolute;
+    top: 898px;
+    margin: 0 0 0 40px;
 }
 
 #conteiner-educacao {
@@ -83,7 +267,9 @@ body {
     border-radius: 20px;
     width: 348px;
     height: 352px;
-    margin: 30px 0 0 40px;
+    margin: 0 0 0 40px;
+    position: absolute;
+    top: 1277px;
 }
 
 #conteiner-meus-projetos {
