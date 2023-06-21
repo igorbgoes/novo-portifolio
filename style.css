@@ -157,98 +157,54 @@ body {
     margin: 30px auto 0 20px;
 }
 
-#tec-1 {
-    width: 86px;
-    height: 24px;
-    background: #CB92B1;
-    border-radius: 30px;
+#conteiner-tecnologias p {
     display: inline-flex;
-    margin: 20px 15px 0 30px;
-}
-
-#tec-1 p {
+    margin: 0;
+    border: 1px solid #cb92b1;
+    background-color: #cb92b1;
+    border-radius: 30px;
+    height: 24px;
+    width: 86px;
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
     line-height: 13px;
-    
-    color: #000000;
-
+    align-items: center;
+    justify-content: center;
 }
 
-#tec-2 {
-    width: 86px;
-    height: 24px;
-    background: #CB92B1;
-    border-radius: 30px;
-    display: inline-flex;
-    margin: 0px 15px 0 0;
+.tec-javascript {
+   position: absolute;
+   top: 76px;
+   left: 30px;
 }
 
-#tec-3 {
-    width: 86px;
-    height: 24px;
-    background: #CB92B1;
-    border-radius: 30px;
-    display: inline-flex;
-}
+.tec-html {
+    position: absolute;
+    top: 76px;
+    left: 131px;
+ }
 
-#tec-4 {
-    width: 86px;
-    height: 24px;
-    background: #CB92B1;
-    border-radius: 30px;
-    display: inline-flex;
-    margin: 15px 15px 0 30px;
-}
+ .tec-css {
+    position: absolute;
+    top: 76px;
+    left: 232px;
+ }
 
-#tec-5 {
-    width: 86px;
-    height: 24px;
-    background: #CB92B1;
-    border-radius: 30px;
-    display: inline-flex;
-    margin: 0px 15px 0 0;
-}
+ .tec-git {
+    position: absolute;
+    top: 115px;
+    left: 30px;
+ }
 
-#tec-6 {
-    width: 86px;
-    height: 24px;
-    background: #CB92B1;
-    border-radius: 30px;
-    display: inline-flex;
-}
-
-#tec-7 {
-    width: 86px;
-    height: 24px;
-    background: #CB92B1;
-    border-radius: 30px;
-    display: inline-flex;
-    margin: 15px 15px 0 30px;
-}
-
-#tec-8 {
-    width: 86px;
-    height: 24px;
-    background: #CB92B1;
-    border-radius: 30px;
-    display: inline-flex;
-    margin: 0px 15px 0 0;
-}
-
-#tec-9 {
-    width: 86px;
-    height: 24px;
-    background: #CB92B1;
-    border-radius: 30px;
-    display: inline-flex;
-}
+ .tec-github {
+    position: absolute;
+    top: 115px;
+    left: 131px;
+ }
 
 
-
-
-/*experiencias*/
+/* experiencias */
 
 #conteiner-experiencias {
     background: #302F3D;
@@ -261,6 +217,27 @@ body {
     margin: 0 0 0 40px;
 }
 
+#conteiner-experiencias h3 {
+    margin: 30px auto 0 20px;
+}
+
+#conteiner-experiencias ul {
+    padding-left: 0;
+    margin-left: 62px;
+    
+}
+
+#conteiner-experiencias ul li p {
+    
+    margin: 0;
+}
+
+.linhas-exp {
+    margin-bottom: 21px;
+}
+
+/* educação */
+
 #conteiner-educacao {
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -272,6 +249,26 @@ body {
     top: 1277px;
 }
 
+#conteiner-educacao h3 {
+    margin: 30px auto 0 20px;
+}
+
+#conteiner-educacao ul {
+    padding-left: 0;
+    margin-left: 62px;
+    
+}
+
+#conteiner-educacao ul li p {
+    
+    margin: 0;
+}
+
+.linhas-educ {
+    margin-bottom: 21px;
+}
+
+/* meus projeto */
 #conteiner-meus-projetos {
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -283,6 +280,22 @@ body {
     margin: 40px 40px 0 448px;
     border: pink 1px solid;
 }
+
+#conteiner-meus-projetos h3 {
+    display: inline-flex;
+    margin: 30px 0 30px 30px;
+    text-align: center;
+}
+
+#conteiner-meus-projetos a {
+    display: inline-flex;
+    text-align: center;
+    margin: 34px 30px 34px 700px;
+    text-decoration: none;
+    color: #837e9f;
+}
+
+/* projeto 1 */
 
 #conteiner-projeto-1 {
     background: #302F3D;
@@ -315,8 +328,7 @@ body {
     position: absolute;
     width: 952px;
     height: 86px;
-    left: 448px;
-    top: 373px;
+    margin: 373px 40px 0 448px;
 }
 
 #conteiner-postagem {
@@ -326,6 +338,5 @@ body {
     position: absolute;
     width: 952px;
     height: 201px;
-    left: 448px;
-    top: 489px;
+    margin: 489px 40px 0 448px;
 }
