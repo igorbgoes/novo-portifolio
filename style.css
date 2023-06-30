@@ -1,3 +1,8 @@
+body * {
+    font-family: 'Merriweather Sans', sans-serif;
+    color:#837e9f;
+}
+
 body {
     background: #22212C;
 }
@@ -20,7 +25,7 @@ body {
     display: inline-block;
     position: absolute;
     margin: 40px auto 0 40px;
-    border: blue solid 1px;
+    
     top: 0;
 }
 
@@ -59,7 +64,7 @@ body {
     position: absolute;
     top: 362px;
     margin: 0 auto 0 40px;
-    border: yellow solid 1px;
+    
 }
 
 /* links & redes sociais */
@@ -150,7 +155,7 @@ body {
     position: absolute;
     top: 660px;
     margin: 0 0 0 40px;
-    border: red solid 1px;
+    
 }
 
 #conteiner-tecnologias h3 {
@@ -171,6 +176,7 @@ body {
     line-height: 13px;
     align-items: center;
     justify-content: center;
+    color: black;
 }
 
 .tec-javascript {
@@ -278,7 +284,7 @@ body {
     position: absolute;
     top: 0;
     margin: 40px 40px 0 448px;
-    border: pink 1px solid;
+    
 }
 
 #conteiner-meus-projetos h3 {
@@ -306,8 +312,59 @@ body {
     position: absolute;
     top: 0;
     margin: 157px 0 0 448px;
-    border: white 1px solid;
+    
 }
+
+.pasta {
+    display: inline-flex;
+    margin: 30px auto auto 30px;
+    width: 20px;
+    height: 20px;
+}
+
+#conteiner-projeto-1 h4 {
+    display: inline-flex;
+    margin: 31px auto auto 16px;
+    position: absolute;
+
+}
+
+#conteiner-projeto-1 a {
+    text-decoration: none;
+}
+
+
+.subtitulo-1 {
+    margin: 20px 10px auto 30px;
+}
+
+#likes {
+   
+    display: inline-flex;
+    
+}
+
+.estrela-1 {
+    display: inline-flex;
+    margin: 47px auto auto 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.info-100 {
+    display: inline-flex;
+    margin: 49px 16px 32px 8px;
+    
+}
+
+.git-branch-1 {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    margin: 47px auto auto 30px;
+}
+
+/* projeto 2 */
 
 #conteiner-projeto-2 {
     background: #302F3D;
@@ -318,8 +375,52 @@ body {
     position: absolute;
     top: 0;
     margin: 157px 0 0 939px;
-    border: white 1px solid;
+    
 }
+
+.pasta-2 {
+    display: inline-flex;
+    margin: 30px auto auto 30px;
+    width: 20px;
+    height: 20px;
+}
+
+#conteiner-projeto-2 h4 {
+    display: inline-flex;
+    margin: 31px auto auto 16px;
+    position: absolute;
+}
+
+#conteiner-projeto-2 a {
+    text-decoration: none;
+}
+
+.subtitulo-2 {
+    margin: 20px 10px auto 30px;
+}
+
+.estrela-2 {
+    display: inline-flex;
+    margin: 47px auto auto 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.info-80 {
+    display: inline-flex;
+    margin: 49px 16px 32px 8px;
+    
+}
+
+.git-branch-2 {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    margin: 47px auto auto 30px;
+}
+
+
+/* postagens recentes*/
 
 #conteiner-postagens-recentes {
     background: #302F3D;
@@ -331,6 +432,14 @@ body {
     margin: 373px 40px 0 448px;
 }
 
+#conteiner-postagens-recentes h3 {
+    display: inline-flex;
+    margin: 30px 0 30px 30px;
+    text-align: center;
+}
+
+/*conteiner da postagem*/
+
 #conteiner-postagem {
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -339,4 +448,55 @@ body {
     width: 952px;
     height: 201px;
     margin: 489px 40px 0 448px;
+}
+
+#ellipse-postagem {
+    width: 128px;
+    height: 128px;
+    border-radius: 128px;
+    background: url(./assets/avatar.jpg) center/cover;
+    margin: 31px auto 42px 30px;
+    display: inline-flex;
+}
+
+#conteiner-postagem h3 {
+    display: inline-flex;
+    position: absolute;
+    top: 30px;
+    right: 162px;
+    bottom: 140px;
+    left: 178px;
+    margin: 0;
+}
+
+#conteiner-postagem a {
+    text-decoration: none;
+}
+
+.data-postagem {
+    
+    position: absolute;
+    top: 61px;
+    right: 651px;
+    bottom: 122px;
+    left: 178px;
+    margin: 0;
+    
+}
+
+.info-postagem {
+    position: absolute;
+    margin: 0;
+    top: 107px;
+    bottom: 74px;
+    left: 178px;
+
+}
+
+.hashtag-postagem {
+    position: absolute;
+    top: 138px;
+    bottom: 42px;
+    left: 178px;
+    margin: 0;
 }
